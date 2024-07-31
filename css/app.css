@@ -878,7 +878,6 @@ body {
 
 .footer {
   background-color: var(--very-dark-black-blue);
-  margin-top: 8rem;
   padding: 6rem 0;
   border-top-right-radius: 10rem;
 }
@@ -909,6 +908,9 @@ body {
 }
 
 @media (min-width: 1440px) {
+  .footer {
+    margin-top: 8rem;
+  }
   .footer__nav {
     gap: 25rem;
   }

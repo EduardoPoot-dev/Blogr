@@ -107,6 +107,7 @@ body {
 }
 
 .header__img {
+  max-width: 100%;
   position: absolute;
   top: -25rem;
   right: -50rem;
@@ -120,6 +121,7 @@ body {
   }
 
   .header__img {
+    max-width: auto;
     top: -120rem;
     left: -40rem;
   }

@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!--FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Ubuntu:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!--NORMALIZE-->
+  <link rel="stylesheet" href="css/normalize.css">
+
+  <!--STYLES-->
+  <link rel="stylesheet" href="css/app.css">
+
+  <title>Frontend Mentor | [Blogr]</title>
+</head>
+
+<body>
+  <!--HEADER-->
+  <header class="header">
+
+    <div class="header__container">
+
+      <!--NAVIGATION-->
+      <nav class="header__nav">
+
+        <!--LOGO-->
+        <figure>
+          <img src="images/logo.svg" class="header__logo" loading="lazy" alt="Blogr logo">
+        </figure>
+
+        <!--MENU HAMBURGER-->
+        <label class="nav__toggle">
+          <img src="images/icon-hamburger.svg" class="toggle__open" loading="lazy" alt="Icon hamburger">
+          <img src="images/icon-close.svg" class="toggle__close" loading="lazy" alt="Icon close">
+          <input type="checkbox" class="toggle__input">
+        </label>
+
+        <!--MENU-->
+        <div class="nav__menu">
+
+          <ul class="menu__container">
+
+            <!--PRODUCT-->
+            <li class="menu__item">
+              <div class="menu__title">
+                <span class="menu__title-name">Product</span>
+
+                <!--ARROW-->
+                <picture>
+                  <source srcset="images/icon-arrow-light.svg" media="(min-width: 768px)">
+                  <source srcset="images/icon-arrow-dark.svg">
+                  <img src="images/icon-arrow-dark.svg" class="menu__arrow" alt="Icon arrow light">
+                </picture>
+
+              </div>
+              <ul class="menu__submenu">
+                <li class="submenu__item">
+                  <a href="#" class="submenu__link">Overview</a>
+                </li>
+                <li class="submenu__item">
+                  <a href="#" class="submenu__link">Pricing</a>
+                </li>
+                <li class="submenu__item">
+                  <a href="#" class="submenu__link">Marketplace</a>
+                </li>
+                <li class="submenu__item">
+                  <a href="#" class="submenu__link">Features</a>
+                </li>
+                <li class="submenu__item">
+                  <a href="#" class="submenu__link">Integrations</a>
+                </li>
+              </ul>
+            </li>
+
+            <!--COMPANY-->
+            <li class="menu__item">
+              <div class="menu__title">
+                <span class="menu__title-name">Company</span>
+
+                <!--ARROW-->
+                <picture>
+                  <source srcset="images/icon-arrow-light.svg" media="(min-width: 768px)">
+                  <source srcset="images/icon-arrow-dark.svg">
+                  <img src="images/icon-arrow-dark.svg" class="menu__arrow" alt="Icon arrow light">
+                </picture>
+              </div>
+
+              <ul class="menu__submenu">
+                <li class="submenu__item">
+                  <a href="#" class="submenu__link">About</a>
+                </li>
+                <li class="submenu__item">
+                  <a href="#" class="submenu__link">Team</a>
+                </li>
+                <li class="submenu__item">
+                  <a href="#" class="submenu__link">Blog</a>
+                </li>
+                <li class="submenu__item">
+                  <a href="#" class="submenu__link">Careers</a>
+                </li>
+              </ul>
+            </li>
+
+            <!--CONNCET-->
+            <li class="menu__item">
+              <div class="menu__title">
+                <span class="menu__title-name">Connect</span>
+
+                <!--ARROW-->
+                <picture>
+                  <source srcset="images/icon-arrow-light.svg" media="(min-width: 768px)">
+                  <source srcset="images/icon-arrow-dark.svg">
+                  <img src="images/icon-arrow-dark.svg" class="menu__arrow" alt="Icon arrow light">
+                </picture>
+
+              </div>
+              <ul class="menu__submenu">
+                <li class="submenu__item">
+                  <a href="#" class="submenu__link">Contact</a>
+                </li>
+                <li class="submenu__item">
+                  <a href="#" class="submenu__link">Newsletter</a>
+                </li>
+                <li class="submenu__item">
+                  <a href="#" class="submenu__link">LinkedIn</a>
+                </li>
+              </ul>
+            </li>
+
+          </ul>
+
+          <!--LOGIN-->
+          <ul class="nav__login">
+            <li class="nav__login-item">
+              <a href="nav__login-link" class="nav__login-link">Login</a>
+            </li>
+
+            <li class="nav__login-item">
+              <a href="nav__login-link" class="nav__login-link nav__login-link--sign">Sing Up</a>
+            </li>
+          </ul>
+
+        </div>
+
+      </nav>
+
+      <!--HEADER CONTENT-->
+      <section class="header__content">
+        <h1 class="header__title">A modern publishing platform</h1>
+
+        <p class="header__description">Grow your audience and build your online brand</p>
+
+        <ul class="header__links">
+          <li class="header__link-container">
+            <a href="#" class="header__link header__link--start">Start for Free</a>
+          </li>
+
+          <li class="header__link-container">
+            <a href="#" class="header__link header__link--learn">Learn More</a>
+          </li>
+        </ul>
+      </section>
+
+
+
+    </div>
+
+
+
+  </header>
+
+  <!--DESIGNED FOT THE FUTURE-->
+  <main class="designed">
+
+    <div class="designed__container">
+
+      <h2 class="designed__title">Designed for the future</h2>
+
+      <!--BACKGROUND-->
+      <picture>
+        <source srcset="images/illustration-editor-desktop.svg" media="(min-width: 1440px)">
+        <source srcset="images/illustration-editor-mobile.svg">
+        <img src="images/illustration-editor-mobile.svg" class="designed__img" loading="lazy" alt="Ilustration editor">
+      </picture>
+
+      <ul class="designed__information">
+        <!--INTRODUCING-->
+        <li class="designed__li">
+          <h3 class="designed__subtitle">Introducing an extensible editor</h3>
+
+          <p class="designed__p">
+            Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.
+            The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,
+            videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or
+            change the looks of a blog.
+          </p>
+        </li>
+
+        <!--ROBUST-->
+        <li class="designed__li">
+          <h3 class="designed__subtitle">Robust content management</h3>
+
+          <p class="designed__p">
+            Flexible content management enables users to easily move through posts. Increase the usability of your blog
+            by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+          </p>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </main>
+
+  <!--STATE OF THE ART INFRASTRUCTURE-->
+
+  <section class="state">
+
+    <!--PHONE IMG-->
+    <figure class="state__phone">
+      <img src="images/illustration-phones.svg" class="state__phone-img" loading="lazy" alt="Illustarion phone">
+    </figure>
+
+    <div class="state__mask">
+
+      <div class="state__container">
+
+        <!--INFO-->
+        <div class="state__info">
+
+          <h2 class="state__title">State of the Art Infrastructure</h2>
+
+          <p class="state__p">
+            With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
+            This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+          </p>
+        </div>
+
+      </div>
+
+      <!--BACKGROUND-->
+      <picture>
+        <img src="images/bg-pattern-circles.svg" class="state__img" loading="lazy" alt="Circles">
+      </picture>
+
+    </div>
+
+  </section>
+
+  <!--FREE OPEN SIMPRE, POWERFULL TOOLING-->
+  <section class="free">
+
+    <!--BACKGROUND-->
+    <picture>
+      <source srcset="images/illustration-laptop-desktop.svg" media="(min-width: 1440px)">
+      <source srcset="images/illustration-laptop-mobile.svg">
+      <img src="images/illustration-laptop-desktop.svg" class="free__img" loading="lazy" alt="Ilustration editor">
+    </picture>
+
+    <div class="free__container">
+
+      <ul class="free__information">
+
+        <!--FREE, OPEN, SIMPLE-->
+        <li class="free__li">
+          <h3 class="free__subtitle">Free, open, simple</h3>
+
+          <p class="free__p">
+            B Blogr is a free and open source application backed by a large community of helpful developers. It supports
+            features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting
+            tools,
+            and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+          </p>
+        </li>
+
+        <!--POWERFUL-->
+        <li class="free__li">
+          <h3 class="free__subtitle">Powerful tooling</h3>
+
+          <p class="free__p">
+            Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a
+            breeze,
+            but capable of producing even the most complicated sites.
+          </p>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </section>
+
+  <!--FOOTER-->
+  <footer class="footer">
+
+    <div class="footer__container">
+
+      <!--FOOTER NAV-->
+      <nav class="footer__nav">
+
+        <!--LOGO-->
+        <figure>
+          <img src="images/logo.svg" alt="Blogr logo">
+        </figure>
+
+        <!--FOOTER MENU-->
+        <ul class="footer-menu">
+
+          <!--PRODUCT-->
+          <li class="footer-menu__item">
+            <div class="footer-menu__title">
+              <span class="footer-menu__title-name">Product</span>
+            </div>
+            <ul class="footer-menu__footer-submenu">
+              <li class="footer-submenu__item">
+                <a href="#" class="footer__menu-link">Overview</a>
+              </li>
+              <li class="footer-submenu__item">
+                <a href="#" class="footer__menu-link">Pricing</a>
+              </li>
+              <li class="footer-submenu__item">
+                <a href="#" class="footer__menu-link">Marketplace</a>
+              </li>
+              <li class="footer-submenu__item">
+                <a href="#" class="footer__menu-link">Features</a>
+              </li>
+              <li class="footer-submenu__item">
+                <a href="#" class="footer__menu-link">Integrations</a>
+              </li>
+            </ul>
+          </li>
+
+          <!--COMPANY-->
+          <li class="footer-menu__item">
+            <div class="footer-menu__title">
+              <span class="footer-menu__title-name">Company</span>
+            </div>
+            <ul class="footer-menu__footer-submenu">
+              <li class="footer-submenu__item">
+                <a href="#" class="footer__menu-link">About</a>
+              </li>
+              <li class="footer-submenu__item">
+                <a href="#" class="footer__menu-link">Team</a>
+              </li>
+              <li class="footer-submenu__item">
+                <a href="#" class="footer__menu-link">Blog</a>
+              </li>
+              <li class="footer-submenu__item">
+                <a href="#" class="footer__menu-link">Careers</a>
+              </li>
+            </ul>
+          </li>
+
+          <!--CONNECT-->
+          <li class="footer-menu__item">
+            <div class="footer-menu__title">
+              <span class="footer-menu__title-name">Connect</span>
+            </div>
+            <ul class="footer-menu__footer-submenu">
+              <li class="footer-submenu__item">
+                <a href="#" class="footer__menu-link">Contact</a>
+              </li>
+              <li class="footer-submenu__item">
+                <a href="#" class="footer__menu-link">Newsletter</a>
+              </li>
+              <li class="footer-submenu__item">
+                <a href="#" class="footer__menu-link">LinkedIn</a>
+              </li>
+            </ul>
+          </li>
+
+
+        </ul>
+      </nav>
+
+    </div>
+
+  </footer>
+</body>
+
+</html>

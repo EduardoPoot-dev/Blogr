@@ -112,7 +112,7 @@ body {
   right: -50rem;
 }
 
-@media (min-width: 1450px) {
+@media (min-width: 1440px) {
   .header {
     background-position: -40rem -130rem, center;
     --gradient-direction: to right;
@@ -252,7 +252,7 @@ body {
   }
 }
 
-@media (min-width: 1450px) {
+@media (min-width: 1440px) {
   .header__nav {
     gap: 6rem;
   }
@@ -495,7 +495,7 @@ body {
   }
 }
 
-@media (min-width: 1450px) {
+@media (min-width: 1440px) {
   .nav__login {
     gap: 3rem;
   }
@@ -633,7 +633,7 @@ body {
   padding: 12rem 0;
 }
 
-@media (min-width: 1450px) {
+@media (min-width: 1440px) {
 
   .designed,
   .free {
@@ -687,7 +687,7 @@ body {
   margin: 0 auto;
 }
 
-@media (min-width: 1450px) {
+@media (min-width: 1440px) {
   .designed__li {
     margin-top: 8rem;
   }
@@ -783,7 +783,7 @@ body {
   }
 }
 
-@media (min-width: 1450px) {
+@media (min-width: 1440px) {
   .state__mask {
     padding: 10rem 0;
   }
@@ -824,7 +824,7 @@ body {
   }
 }
 
-@media (min-width: 1450px) {
+@media (min-width: 1440px) {
   .state__phone-img {
     right: 55%;
   }
@@ -898,7 +898,7 @@ body {
   }
 }
 
-@media (min-width: 1450px) {
+@media (min-width: 1440px) {
   .footer__nav {
     gap: 25rem;
   }
@@ -923,7 +923,7 @@ body {
   }
 }
 
-@media (min-width: 1450px) {
+@media (min-width: 1440px) {
   .footer-menu {
     gap: 25rem;
   }

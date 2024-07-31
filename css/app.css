@@ -107,7 +107,6 @@ body {
 }
 
 .header__img {
-  max-width: 100%;
   position: absolute;
   top: -25rem;
   right: -50rem;
@@ -686,7 +685,15 @@ body {
 .designed__img,
 .free__img {
   display: block;
+  width: 90%;
   margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .designed__img,
+  .free__img {
+    width: 50%;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -719,6 +726,7 @@ body {
   .designed__img,
   .free__img {
     display: block;
+    width: auto;
     margin: 0;
     position: absolute;
     top: 10%;

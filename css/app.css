@@ -929,7 +929,7 @@ body {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1100px) {
   .footer-menu {
     gap: 15rem;
   }
